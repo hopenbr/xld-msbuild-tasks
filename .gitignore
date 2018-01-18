@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/XebiaLabs.Deployit.MSbuildTasks/obj
+/XebiaLabs.Deployit.MSbuildTasks/bin
+*.nupkg
+*.user

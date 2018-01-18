@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>XL.Deployit.MsBuild.Tasks</id>
+    <version>1.1.0.2</version>
+    <title>Deployit Build tasks</title>
+    <authors>eDevOps</authors>
+    <owners>eDevOps</owners>
+    <projectUrl>https://github.com/xebialabs-community/xld-msbuild-tasks</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MSBuild Tasks to interact with XLDeploy</description>
+    <releaseNotes>Initial release as a nuget package</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>XLDeploy XLD Deployit XebiaLabs</tags>
+  </metadata>
+  <files>
+    <file src="build\*.targets" target="build" />
+    <file src="bin\debug\*.dll" target="tools" />
+  </files>
+</package>
