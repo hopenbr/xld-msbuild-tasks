@@ -62,7 +62,7 @@
   <Target Name="Package">
 
     <PropertyGroup>
-      <PackagePath>$(OutputPath)\$(MSBuildProjectName).dar</PackagePath>
+      <PackagePath>$(OutputPath)\package.dar</PackagePath>
     </PropertyGroup>
 
     <GetAssemblyIdentity AssemblyFiles="$(TargetPath)">
