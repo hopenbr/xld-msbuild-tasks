@@ -89,7 +89,8 @@
       <Output TaskParameter="PackageId" PropertyName="PackageId" />
     </UploadPackage>
 
-
+    <WriteLinesToFile File="$(OutputPath)\packageid.txt" Lines="$(PackageId)" Overwrite="true"/>
+    
     <Message Text="PackageId = $(PackageId)" />
 
   </Target>
